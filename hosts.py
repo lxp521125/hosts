@@ -24,8 +24,8 @@ try:
     URL2IP()
     urllist.close()
     iplist.close()
-    os.system('git commit -am "更新host"')
-    os.system('git push')
+ #   os.system('git commit -am "更新host"')
+ #   os.system('git push')
     print "complete !"
 except:
     print "ERROR !"
